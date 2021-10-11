@@ -19,5 +19,4 @@ resource "gitlab_group" "terraform3" {
 resource "gitlab_project" "terraform4" {
   name         = "terraform4"
   description  = "terraform4 project"
-  namespace_id = gitlab_group.example.id
 }
