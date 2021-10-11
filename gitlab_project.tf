@@ -12,7 +12,7 @@ provider "gitlab" {
 }
 resource "gitlab_project" "terraform1" {
   name        = "terraform1"
-  description = "My terraform code"
+  description = "My terraform project"
 
   visibility_level = "public"
 }
