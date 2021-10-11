@@ -10,7 +10,7 @@ terraform {
 provider "gitlab" {
     token = "jN5cz-syACyY3Phwf6Dz"
 }
-resource "gitlab_project" "terrafor1" {
+resource "gitlab_project" "terraform1" {
   name        = "terraform1"
   description = "My terraform code"
 
