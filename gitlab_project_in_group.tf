@@ -8,7 +8,7 @@ terraform {
 }
 # Configure the GitLab Provider
 provider "gitlab" {
-    token = "jN5cz-syACyY3Phwf6Dz"
+    token = ""
 }
 resource "gitlab_group" "terraform3" {
   name        = "terraform3"
